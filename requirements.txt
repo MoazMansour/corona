@@ -1,0 +1,87 @@
+aiofiles @ file:///home/conda/feedstock_root/build_artifacts/aiofiles_1603888855375/work
+alabaster==0.7.12
+astroid==2.4.1
+attrs==20.2.0
+Babel==2.8.0
+bandit==1.6.2
+brotlipy==0.7.0
+certifi==2020.6.20
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1602537245790/work
+chardet @ file:///Users/runner/miniforge3/conda-bld/chardet_1602255309528/work
+click==7.1.2
+configparser==5.0.1
+cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1604179103599/work
+docutils==0.16
+dodgy==0.2.1
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1598715631409/work
+flake8==3.8.4
+flake8-polyfill==1.0.2
+gitdb==4.0.5
+GitPython==3.1.11
+graphene==1.4
+graphql-core @ file:///home/conda/feedstock_root/build_artifacts/graphql-core_1593979029761/work
+graphql-relay==3.0.0
+h11==0.11.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+imagesize==1.2.0
+isort==4.3.21
+itsdangerous==1.1.0
+Jinja2==2.11.2
+jsonschema==3.2.0
+lazy-object-proxy==1.4.3
+m2r==0.2.1
+MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1602267327822/work
+mccabe==0.6.1
+mistune==0.8.4
+mysql-connector==2.2.9
+mysql-connector-python==8.0.22
+packaging==20.4
+pbr==5.5.1
+pep8-naming==0.10.0
+promise @ file:///Users/runner/miniforge3/conda-bld/promise_1602326745474/work
+prospector==1.3.0
+protobuf==3.13.0
+pycodestyle==2.6.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pydantic @ file:///Users/runner/miniforge3/conda-bld/pydantic_1603923492416/work
+pydocstyle==5.1.1
+pyflakes==2.2.0
+Pygments==2.7.2
+pylint==2.5.2
+pylint-celery==0.3
+pylint-django==2.0.15
+pylint-flask==0.6
+pylint-plugin-utils==0.6
+PyMySQL @ file:///opt/concourse/worker/volumes/live/0496191b-21fa-4f1d-5db3-cea6bef7320c/volume/pymysql_1601588907192/work
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+pyrsistent==0.17.3
+PySocks @ file:///Users/runner/miniforge3/conda-bld/pysocks_1602326916036/work
+python-multipart==0.0.5
+pytz==2020.1
+PyYAML==5.3.1
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1592425495151/work
+requirements-detector==0.7
+setoptconf==0.2.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+smmap==3.0.4
+snowballstemmer==2.0.0
+Sphinx==3.2.1
+sphinx-rtd-theme==0.5.0
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==1.0.3
+sphinxcontrib-httpdomain==1.7.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-openapi==0.7.0
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.4
+sphinxcontrib-websupport==1.2.4
+SQLAlchemy==1.3.20
+starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette_1595508258730/work
+stevedore==3.2.2
+toml==0.10.1
+ujson @ file:///Users/runner/miniforge3/conda-bld/ujson_1602282019751/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1603125704209/work
+uvicorn==0.12.2
+wrapt==1.12.1
