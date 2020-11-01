@@ -1,13 +1,11 @@
 from typing import Optional
-from create_session import Session
+from create_session import session
 from models import StateSummary
 
 from fastapi import FastAPI
 
 app = FastAPI()
 
-# Create new Session
-session = Session()
 
 @app.get("/")
 def read_root():

@@ -1,6 +1,6 @@
 import requests
 from requests.exceptions import HTTPError
-from create_session import Session
+from create_session import session
 from models import StateSummary
 URL = 'https://disease.sh/v3/covid-19/states'
 PARAMS = {
@@ -11,8 +11,6 @@ PARAMS = {
 HEADERS = {'Accept':'application/json'}
 states = []
 
-# Create new Session
-session = Session()
 
 try:
     response = requests.get(
