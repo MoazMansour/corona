@@ -13,22 +13,26 @@ class StateSummary(Base):
     state = Column(String(20))
     updated = Column(Integer)
     cases = Column(Integer)
+    casesToday = Column(Integer)
     deaths = Column(Integer)
     deathsToday = Column(Integer)
     recovered = Column(Integer)
+    active = Column(Integer)
     casesPerMillion = Column(Integer)
     deathsPerMillion = Column(Integer)
     tests = Column(Integer)
     testsPerMillion = Column(Integer)
     population = Column(Integer)
 
-    def __init__(self, state, updated, cases, deaths, deathsToday, recovered, casesPerMillion, deathsPerMillion, tests, testsPerMillion, pop):
+    def __init__(self, state, updated, cases, casesToday, deaths, deathsToday, recovered, active, casesPerMillion, deathsPerMillion, tests, testsPerMillion, pop):
         self.state = state
         self.updated = updated
         self.cases = cases
+        self.casesToday = casesToday
         self.deaths = deaths
         self.deathsToday = deathsToday
         self.recovered = recovered
+        self.active = active
         self.casesPerMillion = casesPerMillion
         self.deathsPerMillion = deathsPerMillion
         self.tests = tests
