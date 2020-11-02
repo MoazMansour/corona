@@ -5,6 +5,7 @@
 * install requirements using the command **conda install --file requirements.txt**
 * run command **python get_data.py** to store data in the database
 * run the command 'uvicorn main:app --reload' to start the run backend code
+* go to the url http://localhost:8000/docs to view the documentation for the endpoint
 * cd into corona-stats folder
 * run the command 'yarn install'
 * run the command 'yarn build'
