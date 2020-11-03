@@ -1,6 +1,6 @@
 import sqlalchemy as db
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, MetaData
+from sqlalchemy import Column, Integer, BigInteger, String, MetaData
 import pymysql
 pymysql.install_as_MySQLdb()
 
@@ -11,18 +11,18 @@ class StateSummary(Base):
 
     id = Column(Integer, primary_key=True)
     state = Column(String(20))
-    updated = Column(Integer)
-    cases = Column(Integer)
-    casesToday = Column(Integer)
-    deaths = Column(Integer)
-    deathsToday = Column(Integer)
-    recovered = Column(Integer)
-    active = Column(Integer)
-    casesPerMillion = Column(Integer)
-    deathsPerMillion = Column(Integer)
-    tests = Column(Integer)
-    testsPerMillion = Column(Integer)
-    population = Column(Integer)
+    updated = Column(BigInteger)
+    cases = Column(BigInteger)
+    casesToday = Column(BigInteger)
+    deaths = Column(BigInteger)
+    deathsToday = Column(BigInteger)
+    recovered = Column(BigInteger)
+    active = Column(BigInteger)
+    casesPerMillion = Column(BigInteger)
+    deathsPerMillion = Column(BigInteger)
+    tests = Column(BigInteger)
+    testsPerMillion = Column(BigInteger)
+    population = Column(BigInteger)
 
     def __init__(self, state, updated, cases, casesToday, deaths, deathsToday, recovered, active, casesPerMillion, deathsPerMillion, tests, testsPerMillion, pop):
         self.state = state

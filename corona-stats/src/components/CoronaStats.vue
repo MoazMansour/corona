@@ -16,7 +16,10 @@
       class="mt-2 elevation-5"
       :footer-props="footerProps"
       >
-    <template v-slot:top="{ pagination, options, updateOptions }">
+      <template v-slot:[`item.updated`]="{ item }">
+        {{ formatDate(item.updated) }}
+      </template>
+      <template v-slot:top="{ pagination, options, updateOptions }">
         <v-data-footer
           :pagination="pagination"
           :options="options"
@@ -78,11 +81,11 @@
           { text: 'Deaths Today', value: 'deathsToday' },
           { text: 'Recovered Cases', value: 'recovered' },
           { text: 'Active Cases', value: 'active' },
-          { text: 'Cases Per Million', value: 'Cases Per Million' },
+          { text: 'Cases Per Million', value: 'casesPerMillion' },
           { text: 'Deaths Per Million', value: 'deathsPerMillion' },
           { text: 'Total Tests', value: 'tests' },
           { text: 'Tests Per Million', value: 'testsPerMillion' },
-          { text: 'Total Population', value: 'pop' },
+          { text: 'Total Population', value: 'population' },
         ]
       }
     },
@@ -95,7 +98,7 @@
     },
     methods: {
       formatDate (value) {
-        return moment(value).format('YYYY-MM-DD HH:mm:ss')
+        return moment(value, 'x').format('lll')
       },
       getDataFromApi () {
         this.loading = true

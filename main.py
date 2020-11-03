@@ -36,12 +36,11 @@ def get_all_states():
     print(len(states))
     results = []
     for state in states:
-        print(state.state)
         results.append({'state': state.state, 'updated': state.updated,
                         'cases': state.cases, 'casesToday': state.casesToday,
                         'deaths': state.deaths, 'deathsToday': state.deathsToday,
                         'recovered': state.recovered, 'active': state.active,
-                        'casesPerMilion': state.casesPerMillion, 'deathsPerMillion': state.deathsPerMillion,
+                        'casesPerMillion': state.casesPerMillion, 'deathsPerMillion': state.deathsPerMillion,
                         'tests': state.tests, 'testsPerMillion': state.testsPerMillion,
                         'population': state.population})
     return results
